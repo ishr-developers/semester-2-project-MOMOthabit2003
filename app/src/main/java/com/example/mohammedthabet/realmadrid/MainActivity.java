@@ -1,8 +1,8 @@
 package com.example.mohammedthabet.realmadrid;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    //TODO: You need to write several functions that fetch the data from the server using an AsyncTaskLoader.
     public void launchWebActivity(View view) {
 
         String url;
@@ -26,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         int viewId = view.getId();
         switch(viewId){
             case R.id.image_Show_History: url = "https://www.realmadrid.com/en/about-real-madrid/history/football";
-                    break;
+                break;
 
             case R.id.image_Show_News: url="https://www.newsnow.co.uk/h/Sport/Football/La+Liga/Real+Madrid/Transfer+news";
                 break;
@@ -37,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.image_Show_Website: url="https://www.realmadrid.com/en";
                 break;
 
-                default: url="https://www.google.com/";
+            default: url="https://www.google.com/";
         }
         //Bundle the urk in an intent extra
         intent.putExtra("url", url);
