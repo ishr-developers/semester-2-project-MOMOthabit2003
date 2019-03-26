@@ -17,10 +17,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    //TODO: You need to write several functions that fetch the data from the server using an AsyncTaskLoader.
 
 
-    //TODO: Hint, use the examples on using an AsyncTaskLoader.
+
+    //TODO: Create an Activity to Display the Matches.
+    //TODO: This activity will be responsible for fetchingthe data for matches.
     public void launchWebActivity(View view) {
 
         String url;
