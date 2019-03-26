@@ -7,7 +7,7 @@ public class GamesScheduleActivity extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.);
+        setContentView(R.layout.activity_schedule_layout);
 
 
         //TODO: Delete this code. You don't need a listener in this activity. This is the activity that loads and displays the data.
@@ -20,7 +20,7 @@ public class GamesScheduleActivity extends AppCompatActivity {
                 startLoader();
             }
         }); */
-        
+
 
         //These functions will be called whenever the Activity starts.
         startLoader();
