@@ -3,15 +3,18 @@ package com.example.mohammedthabet.realmadrid;
 import android.app.LoaderManager;
 import android.content.Loader;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class GamesScheduleActivity {
+public class GamesScheduleActivity extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.);
 
+
+        
         //Set the onClick listener for the button.
         Button searchButton = findViewById(R.id.image_Show_GamesSchedule);
         searchButton.setOnClickListener(new View.OnClickListener() {
