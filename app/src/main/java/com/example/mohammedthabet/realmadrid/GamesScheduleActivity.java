@@ -3,6 +3,12 @@ package com.example.mohammedthabet.realmadrid;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
+
+/* In order to use the DataDownloader class, you have to tell Android that this Activity implements
+the loader callbacks. Look to the codelab to see how to do it.
+ */
+
+//TODO: Implement the loader callback using "implements" keyword.
 public class GamesScheduleActivity extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
