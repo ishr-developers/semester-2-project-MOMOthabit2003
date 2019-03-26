@@ -7,10 +7,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!--TODO For each ImageView you need to set an onClick listener that will pass the search URL to the server, get the data, and process the data. -->
-    <!--TODO Start with this one ImageView and fetching data. -->
+    <!--TODO: delete the onClick listener for this ImageView -->
     <ImageView
-        android:id="@+id/image_Show_News"
+        android:id="@+id/image_show_schedule"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginEnd="60dp"
@@ -21,6 +20,8 @@
         app:layout_constraintTop_toBottomOf="@+id/image_Show_GamesSchedule"
         app:srcCompat="@drawable/news" />
 
+
+    <!--TODO: Delete the onClick listeners for all of these images. You'll reset them properly later. -->
 
     <ImageView
         android:id="@+id/image_Show_History"

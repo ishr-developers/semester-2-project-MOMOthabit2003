@@ -1,9 +1,7 @@
 package com.example.mohammedthabet.realmadrid;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,13 +11,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
     }
 
 
-    //TODO: Create an Activity to Display the Matches.
-    //TODO: This activity will be responsible for fetching the data for matches.
+    //TODO: Delete this source code. You don't need it.
+    /*
     public void launchWebActivity(View view) {
 
         String url;
@@ -44,9 +40,9 @@ public class MainActivity extends AppCompatActivity {
         }
         //Bundle the urk in an intent extra
         intent.putExtra("url", url);
-        startActivity(intent);
+        startActivity(intent);  */
 
-    }
+
 
 
 

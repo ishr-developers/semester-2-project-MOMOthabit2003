@@ -37,4 +37,6 @@ public class GamesScheduleActivity extends AppCompatActivity {
 
     }
 
+
+    //TODO: Implement the loader callback functions.
 }

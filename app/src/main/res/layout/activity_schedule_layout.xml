@@ -3,4 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+    <!--TODO: Right now this layout doesn't display anything. This is where you have to display the schedule data. -->
 </android.support.constraint.ConstraintLayout>
