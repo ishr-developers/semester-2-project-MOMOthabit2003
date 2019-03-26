@@ -18,10 +18,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-
     //TODO: Create an Activity to Display the Matches.
-    //TODO: This activity will be responsible for fetchingthe data for matches.
+    //TODO: This activity will be responsible for fetching the data for matches.
     public void launchWebActivity(View view) {
 
         String url;
