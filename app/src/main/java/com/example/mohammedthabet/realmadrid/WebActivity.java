@@ -7,7 +7,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 public class WebActivity extends AppCompatActivity {
-    //Added another comment. Delete me later.
+
 
     private WebView webview;
 

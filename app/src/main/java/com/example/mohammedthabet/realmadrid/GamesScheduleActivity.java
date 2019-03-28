@@ -15,7 +15,7 @@ public class GamesScheduleActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_schedule_layout);
 
-        //Add a comment.
+        //Add a comment. Have another commen.
 
         //TODO: Delete this code. You don't need a listener in this activity. This is the activity that loads and displays the data.
         /* Set the onClick listener for the button.
