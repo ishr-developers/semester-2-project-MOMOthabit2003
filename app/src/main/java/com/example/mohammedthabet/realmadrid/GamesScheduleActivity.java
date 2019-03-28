@@ -11,7 +11,7 @@ the loader callbacks. Look to the codelab to see how to do it.
  */
 
 //TODO: Implement the loader callback using "implements" keyword.
-public class GamesScheduleActivity extends AppCompatActivity {
+public class GamesScheduleActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<String> {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
