@@ -10,7 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 the loader callbacks. Look to the codelab to see how to do it.
  */
 
-//TODO: Implement the loader callback using "implements" keyword.
+
 public class GamesScheduleActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<String> {
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +28,7 @@ public class GamesScheduleActivity extends AppCompatActivity implements LoaderMa
     public void startLoader() {
         LoaderManager manager = getLoaderManager();
         manager.initLoader(1, null, this);
-        
+
     }
 
 
