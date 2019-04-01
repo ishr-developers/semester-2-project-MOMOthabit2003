@@ -16,9 +16,6 @@ public class GamesScheduleActivity extends AppCompatActivity implements LoaderMa
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_schedule_layout);
 
-        //Add a comment. Have another commen.
-
-
         //These functions will be called whenever the Activity starts.
         startLoader();
         displayResults();
@@ -37,5 +34,7 @@ public class GamesScheduleActivity extends AppCompatActivity implements LoaderMa
     }
 
 
-    //TODO: Implement the loader callback functions.
+    public void onLoadFinished(Loader<String> loader, String data) {
+
+        //TODO: Implement the loader callback functions.
 }
