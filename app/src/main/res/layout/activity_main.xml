@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!--TODO: delete the onClick listener for this ImageView -->
+
     <ImageView
         android:id="@+id/image_show_schedule"
         android:layout_width="100dp"
@@ -15,13 +15,12 @@
         android:layout_marginEnd="60dp"
         android:layout_marginRight="60dp"
         android:layout_marginTop="84dp"
-        android:onClick="launchWebActivity"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/image_Show_GamesSchedule"
         app:srcCompat="@drawable/news" />
 
 
-    <!--TODO: Delete the onClick listeners for all of these images. You'll reset them properly later. -->
+
 
     <ImageView
         android:id="@+id/image_Show_History"
@@ -30,7 +29,6 @@
         android:layout_marginLeft="60dp"
         android:layout_marginStart="60dp"
         android:layout_marginTop="188dp"
-        android:onClick="launchWebActivity"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/history" />
