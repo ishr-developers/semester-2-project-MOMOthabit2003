@@ -29,7 +29,7 @@ public class GamesScheduleActivity extends AppCompatActivity implements LoaderMa
 
     @Override
     public Loader<String> onCreateLoader(int id, Bundle args) {
-        String url = "";
+        String url = "https://api.football-data.org/v2/teams/86/matches?status=SCHEDULED";
         return new DataDownloader(this, url);
 
     }
