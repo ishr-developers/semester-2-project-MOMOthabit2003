@@ -1,5 +1,6 @@
 package com.example.mohammedthabet.realmadrid;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -18,7 +19,9 @@ public class MainActivity extends AppCompatActivity {
         schedulesImage.setOnClickListener(new View.OnClickListener() {//Set an onClick listener for the ImageView.
             @Override
             public void onClick(View v) {
-                //TODO: Launch the GamesScheduleActivity! You know how to do this.
+                Intent intent = new Intent(getApplicationContext(), GamesScheduleActivity.class);
+                startActivity(intent);
+
             }
         });
     }
