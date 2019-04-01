@@ -27,6 +27,18 @@ public class GamesScheduleActivity extends AppCompatActivity implements LoaderMa
 
     }
 
+    @Override
+    public Loader<String> onCreateLoader(int id, Bundle args) {
+        String url = "";
+        return new DataDownloader(this, url);
+
+    }
+
+    public void onLoadFinished(Loader<String> loader, String data) {
+
+        //TODO: Implement the loader callback functions.
+    }
+
 
     //TODO: You need a function that will display the results once they've been loaded.
     public void displayResults() {
@@ -34,7 +46,9 @@ public class GamesScheduleActivity extends AppCompatActivity implements LoaderMa
     }
 
 
-    public void onLoadFinished(Loader<String> loader, String data) {
+    @Override
+    public void onLoaderReset(Loader<String> loader) {
 
-        //TODO: Implement the loader callback functions.
+    }
+
 }
