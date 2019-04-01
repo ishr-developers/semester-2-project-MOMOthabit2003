@@ -1,8 +1,8 @@
 package com.example.mohammedthabet.realmadrid;
 
 import android.app.LoaderManager;
-import android.os.Bundle;
 import android.content.Loader;
+import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 
@@ -18,7 +18,6 @@ public class GamesScheduleActivity extends AppCompatActivity implements LoaderMa
 
         //These functions will be called whenever the Activity starts.
         startLoader();
-        displayResults();
     }
 
     public void startLoader() {
@@ -35,15 +34,14 @@ public class GamesScheduleActivity extends AppCompatActivity implements LoaderMa
     }
 
     public void onLoadFinished(Loader<String> loader, String data) {
+        //TODO: You need to map all of the data to a Java Object using Gson().
+        //Look at the quake example on how the results were processed to do this.
 
-        //TODO: Implement the loader callback functions.
+
+        //TODO: Now you need to set up an adapter and populate it with the data.
     }
 
 
-    //TODO: You need a function that will display the results once they've been loaded.
-    public void displayResults() {
-
-    }
 
 
     @Override
