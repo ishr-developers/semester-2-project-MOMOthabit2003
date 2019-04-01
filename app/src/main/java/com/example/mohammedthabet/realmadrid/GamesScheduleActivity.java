@@ -28,8 +28,7 @@ public class GamesScheduleActivity extends AppCompatActivity implements LoaderMa
     public void startLoader() {
         LoaderManager manager = getLoaderManager();
         manager.initLoader(1, null, this);
-
-        //TODO: This is where you want to initiate the loader.
+        
     }
 
 
