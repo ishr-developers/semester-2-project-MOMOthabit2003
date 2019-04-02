@@ -20,10 +20,9 @@
         app:srcCompat="@drawable/news" />
 
 
-    <!--TODO: This is a little easier, you can change one of these images to be the team song. -->
     <!--TODO: Then you can program it to play when the user presses it. -->
     <ImageView
-        android:id="@+id/image_Show_History"
+        android:id="@+id/image_Play_Song"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginLeft="60dp"
