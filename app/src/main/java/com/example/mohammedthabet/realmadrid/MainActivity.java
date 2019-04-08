@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        schedulesImage = findViewById(R.id.image_show_schedule); //Use the genie to connect the reference to the real object.
+        schedulesImage = findViewById(R.id.image_Show_GamesSchedule); //Use the genie to connect the reference to the real object.
         schedulesImage.setOnClickListener(new View.OnClickListener() {//Set an onClick listener for the ImageView.
             @Override
             public void onClick(View v) {
