@@ -5,7 +5,6 @@ import android.content.Loader;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.example.mohammedthabet.realmadrid.MatchesResponse.HomeTeam;
 import com.example.mohammedthabet.realmadrid.MatchesResponse.MatchesItem;
 import com.example.mohammedthabet.realmadrid.MatchesResponse.Response;
 import com.google.gson.Gson;
@@ -31,7 +30,7 @@ public class GamesScheduleActivity extends AppCompatActivity implements LoaderMa
 
     }
 
-        public void startLoader() {
+    public void startLoader() {
         LoaderManager manager = getLoaderManager();
         manager.initLoader(1, null, this);
 
@@ -50,7 +49,7 @@ public class GamesScheduleActivity extends AppCompatActivity implements LoaderMa
 
         List<MatchesItem> matchItems = response.getMatches();
 
-        for (int i = 0; i < matchItems.size() ;i++){
+        for (int i = 0; i < matchItems.size(); i++) {
             String homeTeamName = matchItems.get(i).getHomeTeam().getName();
             String awayTeamName = matchItems.get(i).getAwayTeam().getName();
             String utcDate = matchItems.get(i).getUtcDate();
@@ -60,11 +59,6 @@ public class GamesScheduleActivity extends AppCompatActivity implements LoaderMa
             matchList.add(match);
 
         }
-
-
-
-
-
 
 
         //TODO: You need to map all of the data to a Java Object using Gson().
