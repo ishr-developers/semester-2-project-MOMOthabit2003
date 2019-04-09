@@ -43,7 +43,8 @@ public class GamesScheduleActivity extends AppCompatActivity implements LoaderMa
         //Look at the quake example on how the results were processed to do this.
 
 
-        //TODO: Now you need to set up an adapter and populate it with the data.
+        //TODO:Create an ArrayList of Matches and add each match to it.
+        //TODO: Now you need to set up an adapter and pass the ArrayList to it.
     }
 
 
