@@ -31,8 +31,7 @@ public class DataDownloader extends AsyncTaskLoader<String> {
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("POST");
 
-            //TODO: Show how to add token without posting it to GITHUB
-            //  connection.setRequestProperty("X-Auth-Token", "WRONG TOKEN a5c3635f83ddc36" );
+            connection.setRequestProperty("X-Auth-Token", getContext().getResources().getString(R.string.api_key));
             connection.connect();
 
             result = new StringBuilder();
