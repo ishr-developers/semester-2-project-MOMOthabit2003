@@ -1,9 +1,8 @@
 package com.example.mohammedthabet.realmadrid.MatchesResponse;
 
-import javax.annotation.Generated;
-import com.google.gson.annotations.SerializedName;
+//import javax.annotation.Generated;
 
-@Generated("com.robohorse.robopojogenerator")
+//@Generated("com.robohorse.robopojogenerator")
 public class Filters{
 
 	@Override
