@@ -29,8 +29,6 @@ public class DataDownloader extends AsyncTaskLoader<String> {
         try {
             URL url = new URL(urlString);
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-            connection.setRequestMethod("POST");
-
             connection.setRequestProperty("X-Auth-Token", getContext().getResources().getString(R.string.api_key));
             connection.connect();
 
