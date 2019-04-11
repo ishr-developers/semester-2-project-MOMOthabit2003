@@ -63,17 +63,6 @@ public class GamesScheduleActivity extends AppCompatActivity implements LoaderMa
             
         }
 
-
-
-
-
-
-
-        //TODO: You need to map all of the data to a Java Object using Gson().
-        //Look at the quake example on how the results were processed to do this.
-
-
-        //TODO:Create an ArrayList of Matches and add each match to it.
         //TODO: Now you need to set up an adapter and pass the ArrayList to it.
     }
 
