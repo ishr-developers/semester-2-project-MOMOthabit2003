@@ -8,7 +8,7 @@
     android:layout_margin="4dp">
 
 
-    <!--TODO: You will need a recycler view to display all the data. Add one. -->
+
     <!--When you are done, open the schedule_layout.xml and begin designing how the information is going to be
     displayed. This is the view that will hold all of the data. -->
 

@@ -25,7 +25,7 @@ public class GamesScheduleActivity extends AppCompatActivity implements LoaderMa
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_schedule_layout);
+        setContentView(R.layout.schedule_layout);
 
         //These functions will be called whenever the Activity starts.
 
