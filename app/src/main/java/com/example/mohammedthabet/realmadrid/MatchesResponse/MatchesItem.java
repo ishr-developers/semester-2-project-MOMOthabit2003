@@ -1,10 +1,12 @@
 package com.example.mohammedthabet.realmadrid.MatchesResponse;
 
-import java.util.List;
-import javax.annotation.Generated;
 import com.google.gson.annotations.SerializedName;
 
-@Generated("com.robohorse.robopojogenerator")
+import java.util.List;
+
+//import javax.annotation.Generated;
+
+//@Generated("com.robohorse.robopojogenerator")
 public class MatchesItem{
 
 	@SerializedName("matchday")
