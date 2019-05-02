@@ -4,6 +4,8 @@ import android.app.LoaderManager;
 import android.content.Loader;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 
 import com.example.mohammedthabet.realmadrid.MatchesResponse.MatchesItem;
 import com.example.mohammedthabet.realmadrid.MatchesResponse.Response;
@@ -63,20 +65,24 @@ public class GamesScheduleActivity extends AppCompatActivity implements LoaderMa
             
         }
 
+        setupAdapater();
 
-        //TODO: You need to map all of the data to a Java Object using Gson().
-        //Look at the quake example on how the results were processed to do this.
-
-
-        //TODO:Create an ArrayList of Matches and add each match to it.
-        //TODO: Now you need to set up an adapter and pass the ArrayList to it.
     }
-
-
-
 
     @Override
     public void onLoaderReset(Loader<String> loader) {
+
+    }
+
+    public void setupAdapater() {
+        MatchesRecyclerAdapter adapter = new MatchesRecyclerAdapter(matchList);
+        RecyclerView recyclerView = findViewById(R.id.recyclerview);
+
+        recyclerView.hasFixedSize();
+
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+        recyclerView.setAdapter(adapter);
 
     }
 
