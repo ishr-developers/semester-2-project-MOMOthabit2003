@@ -6,12 +6,25 @@ public class Match {
     String homeTeamName;
     String date;
     String competitionName;
+    String venueName;
 
-    public Match(String competitionName, String homeTeamName, String awayTeamName, String date) {
+    public Match() {
+    }
+
+    public Match(String competitionName, String homeTeamName, String awayTeamName, String date, String venue) {
         this.awayTeamName = awayTeamName;
         this.homeTeamName = homeTeamName;
         this.date = date;
         this.competitionName = competitionName;
+        this.venueName = venue;
+    }
+
+    public String getVenueName() {
+        return venueName;
+    }
+
+    public void setVenueName(String venueName) {
+        this.venueName = venueName;
     }
 
     public String getAwayTeamName() {
