@@ -59,8 +59,9 @@ public class GamesScheduleActivity extends AppCompatActivity implements LoaderMa
             String utcDate = matchItems.get(i).getUtcDate();
             String competitionName = matchItems.get(i).getCompetition().getName();
             String venue = matchItems.get(i).getStage();
+            String time = matchItems.get(i).getUtcDate();
 
-            Match match = new Match(competitionName, homeTeamName, awayTeamName, utcDate, venue);
+            Match match = new Match(competitionName, homeTeamName, awayTeamName, utcDate, venue, time);
             matchList.add(match);
             
         }

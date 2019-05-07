@@ -36,6 +36,8 @@ public class MatchesRecyclerAdapter extends RecyclerView.Adapter<MatchesRecycler
         matchesViewHolder.awayTeamTextView.setText(currentMatch.awayTeamName);
         matchesViewHolder.homeTeamTextView.setText(currentMatch.homeTeamName);
         matchesViewHolder.matchDate.setText(currentMatch.date);
+        matchesViewHolder.matchTime.setText(currentMatch.utcTime);
+        
 
 
     }

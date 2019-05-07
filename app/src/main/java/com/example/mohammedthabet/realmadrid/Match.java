@@ -7,16 +7,18 @@ public class Match {
     String date;
     String competitionName;
     String venueName;
+    String utcTime;
 
     public Match() {
     }
 
-    public Match(String competitionName, String homeTeamName, String awayTeamName, String date, String venue) {
+    public Match(String competitionName, String homeTeamName, String awayTeamName, String date, String venue, String time) {
         this.awayTeamName = awayTeamName;
         this.homeTeamName = homeTeamName;
         this.date = date;
         this.competitionName = competitionName;
         this.venueName = venue;
+        this.utcTime = time;
     }
 
     public String getVenueName() {
