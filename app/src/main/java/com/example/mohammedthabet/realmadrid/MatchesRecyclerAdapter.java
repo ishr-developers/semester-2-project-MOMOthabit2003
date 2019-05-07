@@ -5,6 +5,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -34,6 +35,7 @@ public class MatchesRecyclerAdapter extends RecyclerView.Adapter<MatchesRecycler
         matchesViewHolder.venueTextView.setText(currentMatch.venueName);
         matchesViewHolder.awayTeamTextView.setText(currentMatch.awayTeamName);
         matchesViewHolder.homeTeamTextView.setText(currentMatch.homeTeamName);
+        matchesViewHolder.matchDate.setText(currentMatch.date);
 
 
     }
@@ -48,7 +50,10 @@ public class MatchesRecyclerAdapter extends RecyclerView.Adapter<MatchesRecycler
         TextView awayTeamTextView;
         TextView venueTextView;
         TextView competitionTextView;
-
+        TextView matchDate;
+        ImageView homeTeamBadge;
+        ImageView awayTeamBadge;
+        TextView matchTime;
 
         public MatchesViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -56,6 +61,11 @@ public class MatchesRecyclerAdapter extends RecyclerView.Adapter<MatchesRecycler
             awayTeamTextView = itemView.findViewById(R.id.tv_away_team_name);
             venueTextView = itemView.findViewById(R.id.tv_match_venue);
             competitionTextView = itemView.findViewById(R.id.tv_competition);
+            matchDate = itemView.findViewById(R.id.tv_match_date);
+            homeTeamBadge = itemView.findViewById(R.id.iv_home_team_badge);
+            awayTeamBadge = itemView.findViewById(R.id.iv_away_team_badge);
+            matchTime = itemView.findViewById(R.id.tv_match_time);
+
         }
 
     }
