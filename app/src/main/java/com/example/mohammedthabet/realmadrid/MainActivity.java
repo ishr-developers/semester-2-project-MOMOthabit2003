@@ -1,14 +1,11 @@
 package com.example.mohammedthabet.realmadrid;
 
 import android.content.Intent;
-import android.media.MediaPlayer;
 import android.os.Bundle;
-import android.provider.MediaStore;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
-
-import java.io.FileInputStream;
 
 public class MainActivity extends AppCompatActivity {
 
